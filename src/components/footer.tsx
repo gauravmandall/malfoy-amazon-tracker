@@ -6,7 +6,10 @@ export function Footer() {
           <p>© {new Date().getFullYear()} Price Tracker. All rights reserved.</p>
           <p className="mt-1">
             <span className="text-xs">
-              Currently supporting Amazon.in and Amazon.com. More marketplaces coming soon.
+              Currently supporting Amazon.in and Amazon.com. Designed and developed by{" "}
+              <a href="x.com/gauravmandall" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:text-brand-500">
+                gauravmandall
+                </a>
             </span>
           </p>
         </div>
